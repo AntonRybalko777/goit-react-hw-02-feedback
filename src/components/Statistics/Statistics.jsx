@@ -9,11 +9,21 @@ export const Statistics = ({
 }) => {
   return (
     <div className={css.container}>
-      <p>Good: {good}</p>
-      <p>Neutral: {neutral}</p>
-      <p>Bad: {bad}</p>
-      <p>Total: {total}</p>
-      <p>Positive feedback: {positivePercentage}%</p>
+      <p>
+        Good: <b>{good}</b>
+      </p>
+      <p>
+        Neutral: <b>{neutral}</b>
+      </p>
+      <p>
+        Bad:<b> {bad}</b>
+      </p>
+      <p>
+        Total: <b>{total}</b>
+      </p>
+      <p>
+        Positive feedback: <b>{positivePercentage}%</b>
+      </p>
     </div>
   );
 };
